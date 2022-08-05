@@ -107,11 +107,13 @@ p{
 }
 .personal-d{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     column-gap: 30px;
     line-height: 50px;
     margin-top: 95px;
     position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 h3 span{
     color: white;
@@ -241,10 +243,8 @@ footer{
 
     }
     .icon{
-        font-size: 14px;
-        gap:10px;
-        margin-right: 0px;
 
+        display: none;
     }
     .circle{
         margin-left: 0px;
@@ -264,10 +264,65 @@ footer{
         grid-template-columns: repeat(1,1fr);
         display: grid;
         height: auto;
+        justify-content: center;
     }
     .copy{
         font-size: 15px;
     }
+    .personal-d{
+        gap: 20px;
+        
+    }
+    .person{
+        font-size: 13px;
+    }    
+    h3 span{
+        font-size: 13px;
+        
+    }   
+
+ .section-b{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .about{
+     font-size: 15px;
+
+ }
+ .write{
+     font-size: 17px;
+     margin-top: 30px;
+ }
+ p{
+     font-size: 12px;
+      
+ }
+ .banner-img{
+     margin-top:75px;
+     height: 190px;
+    }
+    
+    .circle{
+        display: flex;
+        height:190px;
+        width: 190px;
+        
+        justify-content: center;
+     
+        border: 10px solid rgb(48, 153, 136) ;
+        align-items: center;
+        margin-left: 40px;
+        border-radius:200px;
+        position: absolute;
+        margin-top: -55px;
+        background: goldenrod;
+        
+    } 
+    .banner-c{
+        height: 350px;
+        width: 300px;
+    } 
 }
     
 
